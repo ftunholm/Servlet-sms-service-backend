@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MessMeBackend">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-connector-java-5.0.8-bin.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/LogiX/Documents/GitHub/messMe-Backend/mysql-connector-java-5.0.8-bin.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.2.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/LogiX/Documents/GitHub/messMe-Backend/gson-2.2.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jBCrypt.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/LogiX/Documents/GitHub/messMe-Backend/jBCrypt.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="MessMeBackend"/>
+        <property name="java-output-path" value="/MessMeBackend/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,325 @@
+body, html{
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+div#container{
+    width: 100%;
+    height: 100%;
+    padding: 10em;
+}
+
+@media (max-width: 1440px) {
+    div#container{
+        padding: 8em;
+    }
+}
+@media (max-width: 1280px) {
+    div#container{
+        padding: 6em;
+    }
+}@media (max-width: 900px) {
+    div#container{
+        padding: 4em;
+    }
+}
+@media (max-width: 720px) {
+    div#container{
+        padding: .5em;
+    }
+}
+
+#wrapper {
+	clear:both;
+}
+
+.dropdowncontainer {
+}
+
+.addcontainer {
+}
+
+.contactcontainer {
+}
+
+#list {
+	list-style-type: none;
+}
+
+.middlecontactcontainer {}
+
+.middlecontactcontainer img {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+#middlecontactlist > li {
+	list-style-type: none;
+}
+
+#middlecontactlist > li > .image{
+  display:block;
+}
+
+#group-dropdown-message {  }
+
+#message-textarea {  }
+
+#message-container-wrapper {
+	clear: both;	
+}
+#message-container {
+	display: inline-block;
+}
+
+.contact-container {
+    width: 100%;
+	display: inline-block;
+	overflow-y: auto;
+}
+
+
+#group-contacts-list > li {
+	list-style-type: none;
+}
+
+
+#contact-list > li {
+	list-style-type: none;
+}
+
+#contact-list > li > input[type=checkbox] {
+  display:block;
+}
+
+
+#contacts-wrapper {
+	clear:both;
+}
+
+#contact-list-contacts img {
+	cursor: pointer; 
+	cursor: hand;
+}
+
+#add-contact-form {
+}
+
+.contact-container-contacts {
+	overflow-y: auto;
+}
+
+#contact-list-contacts > li {
+	list-style-type: none;
+    width: 100%;
+}
+
+#contact-list-contacts > li > .image{
+  display:block;
+}
+
+#login-form-container {  }
+#registerLink {  }
+
+#list-group-title {  }
+
+
+.card{
+	background-color: white;
+	box-shadow: 1px 1px 10px #222222;
+	padding: 2em;
+}
+
+nav{
+	margin: 0;
+}
+
+#nav{
+	margin: 0;
+	list-style-type: none;
+}
+
+#nav li{
+	position: relative;
+	width: 5em;
+	font-size: 2em;
+}
+
+#registerForm{display: none;}
+
+#loginForm{display: none;}
+
+.input{
+	background-color: #ffffff;
+	line-height: 3em;
+	width: 20em;
+	font-size: 1em;
+	display: block;
+	margin: 0px auto;
+	margin-top: 2em;
+}
+
+.button_white{
+	background-color: #ffffff;
+	box-shadow: 1px 1px 10px #222222;
+	font-size: 1em;
+	padding: 0.5em 2em 0.5em 2em;
+
+}
+.button_white:hover{
+	cursor: pointer; cursor: hand;
+}
+
+a{
+    color: black;
+}
+a:hover{
+	color: black;
+    text-decoration: none;
+}
+
+#header{
+    background-color: #3f6699;
+    width: 100%;
+    height: 6em;
+    margin: 0 0 0 0;
+    padding: 3em;
+}
+
+#navigation_drawer{
+    position: fixed;
+    left: -20em;
+    top: 6em;
+    height: 100%;
+    width: 20em;
+    -webkit-box-shadow: 1px 1px 1px -2px #222222;
+    -moz-box-shadow: 1px 1px 1px -2px #222222;
+    -o-box-shadow: 1px 1px 1px -3px #222222;
+    background-color: #ffffff;
+    z-index: 10;
+    padding: 0 0 0 2em;
+}
+
+#hamburger_trigger{
+    width: 50px;
+    height: 25px;
+    display: block;
+    position: absolute;
+    top: 2em;
+}
+
+#hamburger_trigger div{
+    width: 50px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+#hamburger, #hamburger:before, #hamburger:after{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 50px;
+    background-color: #fff;
+    cursor: pointer;cursor: hand;
+    border-radius: 1px;
+    transition: transform 1s, width 1s, top 1s;
+    -webkit-transition: -webkit-transform 1s, width 1s, top 1s;
+    -moz-transition: -moz-transform 1s, width 1s, top 1s;
+}
+
+#hamburger:before{
+    top: -10px;
+    width: 50px;
+}
+
+#hamburger:after{
+    bottom: -10px;
+    width: 50px;
+}
+
+#hamburger.active{  }
+#hamburger.active:before{
+    width: 30px;
+    top: 0;
+
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+
+
+}
+#hamburger.active:after{
+
+    width: 30px;
+    bottom: 0;
+
+    transform-origin: 0 0 ;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+
+}
+
+.remove_contact_symbol{
+}
+
+.remove_contact_symbol:after{
+    content: '\2718';
+    display: block;
+    position: absolute;
+    color: black;
+    cursor: pointer;cursor: hand;
+    z-index: 10;
+    padding: 0;
+    height: 1em;
+    width: 1em;
+    right: 0;
+    margin: 0 1em 1.5em 0;
+}
+
+
+li.contact{
+    padding: 10px;
+    margin-top: 1em;
+}
+
+li.contact:first-child{
+    margin-top: 0;
+}
+
+.add_contact_symbol{
+}
+
+.add_contact_symbol:after{
+    content: '\2795';
+    display: block;
+    position: absolute;
+    color: black;
+    cursor: pointer;cursor: hand;
+    z-index: 10;
+    padding: 0;
+    height: 1em;
+    width: 1em;
+    right: 0;
+    margin: 0 1em 1.5em 0;
+}
+
+#header_logo{
+    width: 9em;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    margin-top: -2.5em;
+}
